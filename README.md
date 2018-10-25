@@ -2,8 +2,8 @@
 Proposal: https://docs.google.com/document/d/1DpoKo4IZ652F7GoejGv1ldHsfoChiocLEdMoHh7HdG0/
 
 ## Front-End Tasks
-[x] Create front-end template
-[ ] Provide fields for rating 1-10
+- [x] Create front-end template
+- [ ] Provide fields for rating 1-10
  - [x] Comedy
  - [x] Drama
  - [x] Action

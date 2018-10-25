@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
+.w3-bar,h1,button {font-family: "Montserrat", sans-serif}
+.fas, .fa{font-size:60px}
+</style>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-red w3-card w3-left-align w3-large">
+    <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-red" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="index.html" class="w3-bar-item w3-button w3-padding-large w3-hover-white">Home</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-light-gray">Find a Show!</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">See Popular Shows</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Make a Profile</a>
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">Find a Show!</a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">See Popular Shows</a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">Make a Profile</a>
+  </div>
+</div>
+
+<div class="w3-padding-64 w3-container w3-light-gray">
+    <div class="w3-content">
+        <div class="w3-center">
+          <h1>Please rate the movie you saw with respect to as many of the following categories as you'd like.</h1>
+        </div>
+  </div>
+</div>
+    
+<!-- Ratings -->
+<!--Comedy-->
+<div class="w3-row-padding w3-padding-32 w3-container">
+  <div class="w3-content">
+    <div class="w3-third">
+      <h1>Comedy</h1>
+    </div>
+      
+    <div class="w3-third w3-center">
+      <select style="font-size: 20px">
+          <option value="NA">N/A</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+          <option value="10">10</option>
+      </select>
+    </div>
+
+    <div class="w3-third w3-center">
+      <i class="fas fa-laugh-squint w3-text-red"></i>
+    </div>
+  </div>
+</div>
+    
+<!--Drama-->
+<div class="w3-row-padding w3-padding-32 w3-container">
+  <div class="w3-content">
+    <div class="w3-third">
+      <h1>Drama</h1>
+    </div>
+      
+    <div class="w3-third w3-center">
+      <select style="font-size: 20px">
+          <option value="NA">N/A</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+          <option value="10">10</option>
+      </select>
+    </div>
+
+    <div class="w3-third w3-center">
+      <i class="fas fa-theater-masks w3-text-red"></i>
+    </div>
+  </div>
+</div>
+
+<!--Action-->
+<div class="w3-row-padding w3-padding-32 w3-container">
+  <div class="w3-content">
+    <div class="w3-third">
+      <h1>Action</h1>
+    </div>
+      
+    <div class="w3-third w3-center">
+      <select style="font-size: 20px">
+          <option value="NA">N/A</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+          <option value="10">10</option>
+      </select>
+    </div>
+
+    <div class="w3-third w3-center">
+      <i class="fa fa-user-injured w3-text-red"></i>
+    </div>
+  </div>
+</div>
+
+<!--Sci-fi-->
+<div class="w3-row-padding w3-padding-32 w3-container">
+  <div class="w3-content">
+    <div class="w3-third">
+      <h1>Sci-Fi</h1>
+    </div>
+      
+    <div class="w3-third w3-center">
+      <select style="font-size: 20px">
+          <option value="NA">N/A</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+          <option value="10">10</option>
+      </select>
+    </div>
+
+    <div class="w3-third w3-center">
+      <i class="fas fa-jedi w3-text-red"></i>
+    </div>
+  </div>
+</div>
+
+    
+<div class="w3-row-padding w3-padding-32 w3-container w3-center">
+    <button class="w3-button w3-red">Click here when you're done!</button>
+</div>
+<!-- Explanation -->
+<div class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
+  <div class="w3-content">
+    <div class="w3-third w3-center">
+      <i class="fa fa-coffee w3-padding-64 w3-text-red w3-margin-right"></i>
+    </div>
+
+    <div class="w3-twothird">
+      <h1>How It Works</h1>
+      <h5 class="w3-padding-32">All information on shows is taken from <a href="https://www.imdb.com/tv">IMDb</a> and scores are processed accordingly.</h5>
+
+      <p class="w3-text-grey">Our tool uses Sike’s algorithm.  We gather information about movies and TV shows from IMDb.  The score of a movie or TV show in a particular category is calculated as X (the average of all reviews for that show) divided by |X|.  For example, The Walking Dead is listed as horror, drama, and sci-fi and is rated 8.4/10 on IMDb, so its score for each category will be 8.4 / 3 = 2.8. This will be the show’s raw category score. When you put in a movie, you rate the movie out of 10 according to preset categories (drama, comedy, etc.) indicating how important you believed that category to be in your enjoyment of the movie. 
+      </p>
+        
+      <p class="w3-text-grey">The <i>user preference score</i> is then calculated by taking a number representing the importance of a category and dividing that by the total importance.  A <i>similarity score</i> is the sum of the raw category scores multiplied by the user preference scores.  A similarity score is calculated for each of the TV shows in our database using a similar metric.  For example, if The Walking Dead has a 2.8 rating for drama and if you preference drama as 5/6, the show’s total score is just below 15/6).  Finally, we return the shows in order of highest score.</p>
+    </div>
+  </div>
+</div>
+
+<div class="w3-container w3-black w3-center w3-opacity w3-padding-64">
+    <h1 class="w3-margin w3-xlarge">Quote of the day: live life</h1>
+</div>
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity">  
+  <div class="w3-xlarge w3-padding-32">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+ </div>
+ <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+</footer>
+
+<script>
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else { 
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+</script>
+
+</body>
+</html>
+

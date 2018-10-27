@@ -3,6 +3,7 @@
 
 (function showScopeWrapper($) {
     function requestShow(pickupLocation) {
+        console.log('executed');
         $.ajax({
             method: 'POST',
             url: _config.api.invokeUrl + '/api',
@@ -23,6 +24,7 @@
                 alert('An error occured when requesting your unicorn:\n' + jqXHR.responseText);
             }
         });
+        console.log('after ajax');
     }
 
     function completeRequest(result) {

@@ -8,6 +8,7 @@ Proposal: https://docs.google.com/document/d/1DpoKo4IZ652F7GoejGv1ldHsfoChiocLEd
  - - [x] Drama
  - - [x] Action
  - - [x] Sci-fi
+ - - [ ] Horror
  - - [ ] Other?
  - [ ] Implement functionality of the submit button
  - [ ] onClick function that:
